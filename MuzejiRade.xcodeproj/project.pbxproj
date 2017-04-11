@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31C26B391E9CF3F500469E37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C26B381E9CF3F500469E37 /* AppDelegate.swift */; };
+		31C26B3B1E9CF3F500469E37 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C26B3A1E9CF3F500469E37 /* MasterViewController.swift */; };
+		31C26B3D1E9CF3F500469E37 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C26B3C1E9CF3F500469E37 /* DetailViewController.swift */; };
+		31C26B401E9CF3F500469E37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31C26B3E1E9CF3F500469E37 /* Main.storyboard */; };
+		31C26B421E9CF3F500469E37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31C26B411E9CF3F500469E37 /* Assets.xcassets */; };
+		31C26B451E9CF3F500469E37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31C26B431E9CF3F500469E37 /* LaunchScreen.storyboard */; };
+		31C26B501E9CF3F500469E37 /* MuzejiRadeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C26B4F1E9CF3F500469E37 /* MuzejiRadeTests.swift */; };
+		31C26B5B1E9CF3F500469E37 /* MuzejiRadeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C26B5A1E9CF3F500469E37 /* MuzejiRadeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31C26B4C1E9CF3F500469E37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31C26B2D1E9CF3F500469E37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31C26B341E9CF3F500469E37;
+			remoteInfo = MuzejiRade;
+		};
+		31C26B571E9CF3F500469E37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31C26B2D1E9CF3F500469E37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31C26B341E9CF3F500469E37;
+			remoteInfo = MuzejiRade;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31C26B351E9CF3F500469E37 /* MuzejiRade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuzejiRade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31C26B381E9CF3F500469E37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		31C26B3A1E9CF3F500469E37 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		31C26B3C1E9CF3F500469E37 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		31C26B3F1E9CF3F500469E37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31C26B411E9CF3F500469E37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31C26B441E9CF3F500469E37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31C26B461E9CF3F500469E37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31C26B4B1E9CF3F500469E37 /* MuzejiRadeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuzejiRadeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31C26B4F1E9CF3F500469E37 /* MuzejiRadeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuzejiRadeTests.swift; sourceTree = "<group>"; };
+		31C26B511E9CF3F500469E37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31C26B561E9CF3F500469E37 /* MuzejiRadeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuzejiRadeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31C26B5A1E9CF3F500469E37 /* MuzejiRadeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuzejiRadeUITests.swift; sourceTree = "<group>"; };
+		31C26B5C1E9CF3F500469E37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31C26B321E9CF3F500469E37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31C26B481E9CF3F500469E37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31C26B531E9CF3F500469E37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31C26B2C1E9CF3F500469E37 = {
+			isa = PBXGroup;
+			children = (
+				31C26B371E9CF3F500469E37 /* MuzejiRade */,
+				31C26B4E1E9CF3F500469E37 /* MuzejiRadeTests */,
+				31C26B591E9CF3F500469E37 /* MuzejiRadeUITests */,
+				31C26B361E9CF3F500469E37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31C26B361E9CF3F500469E37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31C26B351E9CF3F500469E37 /* MuzejiRade.app */,
+				31C26B4B1E9CF3F500469E37 /* MuzejiRadeTests.xctest */,
+				31C26B561E9CF3F500469E37 /* MuzejiRadeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31C26B371E9CF3F500469E37 /* MuzejiRade */ = {
+			isa = PBXGroup;
+			children = (
+				31C26B381E9CF3F500469E37 /* AppDelegate.swift */,
+				31C26B3A1E9CF3F500469E37 /* MasterViewController.swift */,
+				31C26B3C1E9CF3F500469E37 /* DetailViewController.swift */,
+				31C26B3E1E9CF3F500469E37 /* Main.storyboard */,
+				31C26B411E9CF3F500469E37 /* Assets.xcassets */,
+				31C26B431E9CF3F500469E37 /* LaunchScreen.storyboard */,
+				31C26B461E9CF3F500469E37 /* Info.plist */,
+			);
+			path = MuzejiRade;
+			sourceTree = "<group>";
+		};
+		31C26B4E1E9CF3F500469E37 /* MuzejiRadeTests */ = {
+			isa = PBXGroup;
+			children = (
+				31C26B4F1E9CF3F500469E37 /* MuzejiRadeTests.swift */,
+				31C26B511E9CF3F500469E37 /* Info.plist */,
+			);
+			path = MuzejiRadeTests;
+			sourceTree = "<group>";
+		};
+		31C26B591E9CF3F500469E37 /* MuzejiRadeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				31C26B5A1E9CF3F500469E37 /* MuzejiRadeUITests.swift */,
+				31C26B5C1E9CF3F500469E37 /* Info.plist */,
+			);
+			path = MuzejiRadeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31C26B341E9CF3F500469E37 /* MuzejiRade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31C26B5F1E9CF3F500469E37 /* Build configuration list for PBXNativeTarget "MuzejiRade" */;
+			buildPhases = (
+				31C26B311E9CF3F500469E37 /* Sources */,
+				31C26B321E9CF3F500469E37 /* Frameworks */,
+				31C26B331E9CF3F500469E37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MuzejiRade;
+			productName = MuzejiRade;
+			productReference = 31C26B351E9CF3F500469E37 /* MuzejiRade.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31C26B4A1E9CF3F500469E37 /* MuzejiRadeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31C26B621E9CF3F500469E37 /* Build configuration list for PBXNativeTarget "MuzejiRadeTests" */;
+			buildPhases = (
+				31C26B471E9CF3F500469E37 /* Sources */,
+				31C26B481E9CF3F500469E37 /* Frameworks */,
+				31C26B491E9CF3F500469E37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31C26B4D1E9CF3F500469E37 /* PBXTargetDependency */,
+			);
+			name = MuzejiRadeTests;
+			productName = MuzejiRadeTests;
+			productReference = 31C26B4B1E9CF3F500469E37 /* MuzejiRadeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		31C26B551E9CF3F500469E37 /* MuzejiRadeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31C26B651E9CF3F500469E37 /* Build configuration list for PBXNativeTarget "MuzejiRadeUITests" */;
+			buildPhases = (
+				31C26B521E9CF3F500469E37 /* Sources */,
+				31C26B531E9CF3F500469E37 /* Frameworks */,
+				31C26B541E9CF3F500469E37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31C26B581E9CF3F500469E37 /* PBXTargetDependency */,
+			);
+			name = MuzejiRadeUITests;
+			productName = MuzejiRadeUITests;
+			productReference = 31C26B561E9CF3F500469E37 /* MuzejiRadeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31C26B2D1E9CF3F500469E37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = attozoic;
+				TargetAttributes = {
+					31C26B341E9CF3F500469E37 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					31C26B4A1E9CF3F500469E37 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 31C26B341E9CF3F500469E37;
+					};
+					31C26B551E9CF3F500469E37 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 31C26B341E9CF3F500469E37;
+					};
+				};
+			};
+			buildConfigurationList = 31C26B301E9CF3F500469E37 /* Build configuration list for PBXProject "MuzejiRade" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31C26B2C1E9CF3F500469E37;
+			productRefGroup = 31C26B361E9CF3F500469E37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31C26B341E9CF3F500469E37 /* MuzejiRade */,
+				31C26B4A1E9CF3F500469E37 /* MuzejiRadeTests */,
+				31C26B551E9CF3F500469E37 /* MuzejiRadeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31C26B331E9CF3F500469E37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C26B451E9CF3F500469E37 /* LaunchScreen.storyboard in Resources */,
+				31C26B421E9CF3F500469E37 /* Assets.xcassets in Resources */,
+				31C26B401E9CF3F500469E37 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31C26B491E9CF3F500469E37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31C26B541E9CF3F500469E37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31C26B311E9CF3F500469E37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C26B3D1E9CF3F500469E37 /* DetailViewController.swift in Sources */,
+				31C26B3B1E9CF3F500469E37 /* MasterViewController.swift in Sources */,
+				31C26B391E9CF3F500469E37 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31C26B471E9CF3F500469E37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C26B501E9CF3F500469E37 /* MuzejiRadeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31C26B521E9CF3F500469E37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C26B5B1E9CF3F500469E37 /* MuzejiRadeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31C26B4D1E9CF3F500469E37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31C26B341E9CF3F500469E37 /* MuzejiRade */;
+			targetProxy = 31C26B4C1E9CF3F500469E37 /* PBXContainerItemProxy */;
+		};
+		31C26B581E9CF3F500469E37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31C26B341E9CF3F500469E37 /* MuzejiRade */;
+			targetProxy = 31C26B571E9CF3F500469E37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31C26B3E1E9CF3F500469E37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31C26B3F1E9CF3F500469E37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31C26B431E9CF3F500469E37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31C26B441E9CF3F500469E37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31C26B5D1E9CF3F500469E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		31C26B5E1E9CF3F500469E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31C26B601E9CF3F500469E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MuzejiRade/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.attozoic.MuzejiRade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		31C26B611E9CF3F500469E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MuzejiRade/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.attozoic.MuzejiRade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		31C26B631E9CF3F500469E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MuzejiRadeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.attozoic.MuzejiRadeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuzejiRade.app/MuzejiRade";
+			};
+			name = Debug;
+		};
+		31C26B641E9CF3F500469E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MuzejiRadeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.attozoic.MuzejiRadeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuzejiRade.app/MuzejiRade";
+			};
+			name = Release;
+		};
+		31C26B661E9CF3F500469E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MuzejiRadeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.attozoic.MuzejiRadeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MuzejiRade;
+			};
+			name = Debug;
+		};
+		31C26B671E9CF3F500469E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MuzejiRadeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.attozoic.MuzejiRadeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MuzejiRade;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31C26B301E9CF3F500469E37 /* Build configuration list for PBXProject "MuzejiRade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31C26B5D1E9CF3F500469E37 /* Debug */,
+				31C26B5E1E9CF3F500469E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31C26B5F1E9CF3F500469E37 /* Build configuration list for PBXNativeTarget "MuzejiRade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31C26B601E9CF3F500469E37 /* Debug */,
+				31C26B611E9CF3F500469E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		31C26B621E9CF3F500469E37 /* Build configuration list for PBXNativeTarget "MuzejiRadeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31C26B631E9CF3F500469E37 /* Debug */,
+				31C26B641E9CF3F500469E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		31C26B651E9CF3F500469E37 /* Build configuration list for PBXNativeTarget "MuzejiRadeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31C26B661E9CF3F500469E37 /* Debug */,
+				31C26B671E9CF3F500469E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31C26B2D1E9CF3F500469E37 /* Project object */;
+}
